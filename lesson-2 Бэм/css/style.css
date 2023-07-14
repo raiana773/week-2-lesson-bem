@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+.container {
+    width: 1152px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__logo {
+    margin-top: 60px;
+    margin-left: 144px;
+    height: 43px;
+}
+.header__nav {
+    display: flex;
+    margin-top: 40px;
+}
+
+.header__nav__link {
+    color: #FFFFFF;
+    padding: 30px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+.intro__title {
+    margin-top: 82px;
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 19px;
+}
+.intro__description {
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 19px;
+}
+.intro__btn {
+    color: #FFFFFF;
+    background-color: #FC0A7E;
+    border-radius: 3px;
+    padding: 20px 40px 20px 40px;
+    border: solid #FC0A7E ;
+    margin-top: 49px;
+}
+
+.intro__img {
+    margin-top: 48px;
+   margin-right: 100px;
+   margin-bottom: 30px;
+  
+}
+
+/* desktop info start */
+.desktop-info {
+    background-color: #1B1B1B;
+    color: white;
+}
+.desktop-info__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+} 
+.desktop-info__content p {
+    color: #A8A8A8;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+.desktop-info__content h2 {
+    width: 600px;
+    margin-top: 30px;
+    align-content: center;
+    line-height: 48px;
+    font-size: 38px;
+}
+.desktop-info__content img {
+    margin-top: 100px;
+}
+ /* desktop info end  */
+
+ /* <!-- mobile info start -->  */
+
+.mobile-info__contant__text-size-s {
+    color: #A8A8A8;
+    margin-left: 145px;
+}
+.mobile-info__contant__text-size-l {
+    margin-left: 150px;
+    margin-top: 25px;
+    line-height: 40px;
+    font-weight: 400px;
+    Font-size: 35px;
+}
+.mobile-info__contant__text-size-m {
+    margin-left: 150px;
+    margin-top: 22px;
+    color: #6B6B6B;
+    line-height: 48px;
+}
+
+.mobile-info__content {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+/* cards start */
+.cards {
+    display: flex;
+    margin-top: 159px;
+}
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.cards__item__title {
+    align-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-style: bold;
+    color: #000000;
+}
+.cards__item__description {
+    margin-top: 17px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/* results start */
+.results {
+    display: flex;
+    justify-content: space-between;
+}
+.results__item {
+    text-align: center;
+}
+.results__item__title {
+    margin-top: 163px;
+    font-size: 59px;
+}
+.results__item__description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000000 solid bold;
+    line-height: 24px;
+}
+/* menu start */
+.menu__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.menu__block-img {
+    width: 600px;
+}
+.menu__block-text {
+    width: 400px;
+    text-align: center;
+}
+.menu__block-text-child-2 {
+    margin-top: 25px 0;
+}
+/* menu end */
+
+/* quote start */
+.quote {
+    text-align: center;
+    margin-top: 80px;
+}
+.quote__text {
+    margin: 20px 0;
+}
+.quote__test-dots {
+    width: 100%;
+}
+/* quote end */
+
+/* brands start */
+.brands {
+    text-align: center;
+    margin: 90px;
+}
+.brands-img {
+    display: flex;
+    justify-content: center;
+}
+/* brands end */
+ 
+/* phone start */
+.phone__img { 
+    display: flex; 
+    justify-content: center; 
+}
+/* phone end */
+
+/* resdy start */
+.ready {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    background-image: url(./images/волны.svg);
+    background-position: center;
+    background-size: cover;
+    height: 475px;
+}
+
+@media all and (max-width: 1200px){
+    .desktop-info__container__img {
+        width: 80%;
+        
+    }
+}
